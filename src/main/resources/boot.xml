@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+    <!-- 数据库连接池 -->
+    <!--    <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">-->
+    <!--        <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"/>-->
+    <!--        <property name="url"-->
+    <!--                  value="jdbc:mysql://localhost:3306/springmvc?useSSL=false&amp;serverTimezone=Hongkong&amp;characterEncoding=utf-8&amp;autoReconnect=true"/>-->
+    <!--        <property name="username" value="root"/>-->
+    <!--        <property name="password" value="123456"/>-->
+    <!--        <property name="maxActive" value="255"/>-->
+    <!--        <property name="maxIdle" value="5"/>-->
+    <!--        <property name="maxWait" value="10000"/>-->
+    <!--    </bean>-->
+
+    <!--    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">-->
+    <!--        <property name="dataSource" ref="dataSource"/>-->
+    <!--    </bean>-->
+
+    <!--    &lt;!&ndash; 配置数据源事务管理器 &ndash;&gt;-->
+    <!--    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">-->
+    <!--        <property name="dataSource" ref="dataSource"/>-->
+    <!--    </bean>-->
+
+    <context:component-scan base-package="com.wxdlong.bean"/>
+</beans>
