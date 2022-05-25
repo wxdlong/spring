@@ -13,7 +13,7 @@
     <description>Spring Framework study</description>
 
     <properties>
-        <org.springframework.version>5.2.4.RELEASE</org.springframework.version>
+        <org.springframework.version>5.2.22.RELEASE</org.springframework.version>
         <hibernate.version>5.4.12.Final</hibernate.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
